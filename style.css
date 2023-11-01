@@ -56,7 +56,14 @@ a:hover {
 }
 .hm-i{
     width: 100%;
+    
 }
+@media screen and (max-width: 600px) {
+    .hm-i{
+        width: 100%;
+        height: 80vh;
+    }
+  }
 .hd-a{
     justify-content: center;
     text-align: center;
@@ -65,12 +72,13 @@ a:hover {
 }
 .cr-bt{
     height: 10%;
-    width: auto;
+    width:60%;
     background-color: gold; 
     color: black;
     border: none;
     border-radius: 3rem;
     text-align: center;
+    padding: 3vh;
 }
 .cr-bt:hover{
     background-color: black;
