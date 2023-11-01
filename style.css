@@ -21,7 +21,11 @@ svg{
 .nav-container{
     height: 20vh;
 }
-
+@media screen and (max-width: 600px) {
+    .nav-container{
+        height: 30vh;
+    }
+  }
 a:link{
     text-decoration: none;
     color:white;
